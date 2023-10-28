@@ -1,0 +1,7 @@
+{
+    "model": "bigscience/bloom",
+    "temperature": "0.0001",
+    "max_lenght": "64",
+    "prompt": "PROMPT_TEMPLATE = \"Com base nas informações fornecidas na busca do usuário, recomende uma lista de produtos que atendam às suas necessidades,\nincluindo nome e especificações do item. Se você não souber a resposta, apenas diga que não sabe, não tente inventar uma resposta.\nexemplo 1:\nPergunta: Itens para montar um setup\nResposta: Monitor, Computador, Teclado, Mouse\n\nexemplo 2:\nPergunta: Preciso decorar meu banheiro\nResposta: Toalha, Saboneteira, Porta papel higiênico\n\n{pergunta}\""  
+
+}

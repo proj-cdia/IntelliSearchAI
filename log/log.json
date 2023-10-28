@@ -1,0 +1,22 @@
+[
+    {
+        "Pergunta": "quero costurar uma saia",
+        "Respostas": [
+            "Linha",
+            "Agulha",
+            "Tecido"
+        ]
+    },
+    {
+        "Pergunta": "quero montar um setup",
+        "Respostas": []
+    },
+    {
+        "Pergunta": "quero montar um sistema de som",
+        "Respostas": [
+            "Subwoofer",
+            "Amplificador",
+            "Caixa de Som"
+        ]
+    }
+]
