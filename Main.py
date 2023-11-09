@@ -7,7 +7,7 @@ warnings.filterwarnings("ignore")
 
 if __name__ == "__main__":
     #ALTERAR DEPOIS
-    os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
+    os.environ['HUGGINGFACEHUB_API_TOKEN'] = ''
     config = load_config("model/config.json")
     model = config["model"]
     temperature, max_lenght = float(config["temperature"]), int(config["max_lenght"])
