@@ -18,5 +18,23 @@
             "Amplificador",
             "Caixa de Som"
         ]
+    },
+    {
+        "Pergunta": "Quero decorar minha cozinha",
+        "Respostas": [
+            "Fogão",
+            "Geladeira",
+            "Mesa",
+            "Microondas"
+        ]
+    },
+    {
+        "Pergunta": "Quero decorar minha cozinha",
+        "Respostas": [
+            "Fogão",
+            "Geladeira",
+            "Mesa",
+            "Microondas"
+        ]
     }
 ]
