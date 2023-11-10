@@ -87,7 +87,7 @@ def processing_and_embed(df):
     df['embedding_categories'] = df['filtered_categories'].apply(lambda x: (embedding(x)))
     # String para lista
     #df['embedding_categories'] = df['embedding_categories'].apply(lambda x: (eval(x)))
-
+    return df
 
 def new_file(df):
     path = path = 'data\processed-data'
