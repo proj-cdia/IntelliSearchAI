@@ -1,9 +1,9 @@
 langchain
 huggingface_hub
-dotenv
 pandas
 bs4
 unidecode
 requests
 retry
 pinecone-client
+streamlit
