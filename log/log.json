@@ -36,5 +36,13 @@
             "Mesa",
             "Microondas"
         ]
+    },
+    {
+        "Pergunta": "quero montar um pc",
+        "Respostas": [
+            "Processador",
+            "Memória RAM",
+            "Placa mãe"
+        ]
     }
 ]

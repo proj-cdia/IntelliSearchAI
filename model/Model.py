@@ -64,5 +64,7 @@ class Model():
         clean_answer = answer_cleaner(answer)
         clean_answer2 = answer_cleaner(answer2)
         result = list(set(clean_answer + clean_answer2))
+        result_sorted = sorted(result)
+        result_string = ', '.join(result_sorted)
         save_log(input, result)
-        return result
+        return result_string
