@@ -4,6 +4,8 @@ import pandas as pd
 def processing_bd(df):
     """Processando dados para a inserção no BD vetorial"""
     
+    df['embedding_categories'] = df['embedding_categories'].apply(lambda x: (eval(x))) ### Inserir no processamento dps
+
     id_list = [df['productId'].values[i] for i in range(len(df))]
     id_list = list(map(str, id_list))
     

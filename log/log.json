@@ -22,7 +22,7 @@
     {
         "Pergunta": "Quero decorar minha cozinha",
         "Respostas": [
-            "Fogão",
+            "Fogï¿½o",
             "Geladeira",
             "Mesa",
             "Microondas"
@@ -31,7 +31,7 @@
     {
         "Pergunta": "Quero decorar minha cozinha",
         "Respostas": [
-            "Fogão",
+            "Fogï¿½o",
             "Geladeira",
             "Mesa",
             "Microondas"
@@ -41,8 +41,58 @@
         "Pergunta": "quero montar um pc",
         "Respostas": [
             "Processador",
-            "Memória RAM",
-            "Placa mãe"
+            "Memï¿½ria RAM",
+            "Placa mï¿½e"
+        ]
+    },
+    {
+        "Pergunta": "Quero um setup gamer",
+        "Respostas": [
+            "Mouse",
+            "Teclado",
+            "Monitor"
+        ]
+    },
+    {
+        "Pergunta": "Quero um setup gamer",
+        "Respostas": [
+            "Mouse",
+            "Teclado",
+            "Monitor"
+        ]
+    },
+    {
+        "Pergunta": "Quero um setup gamer",
+        "Respostas": [
+            "Mouse",
+            "Teclado",
+            "Monitor"
+        ]
+    },
+    {
+        "Pergunta": "Quero um setup gamer",
+        "Respostas": [
+            "Mouse",
+            "Teclado",
+            "Monitor"
+        ]
+    },
+    {
+        "Pergunta": "Quero um setup gamer para jogos fps",
+        "Respostas": [
+            "Mouse",
+            "Teclado",
+            "Computador",
+            "Monitor"
+        ]
+    },
+    {
+        "Pergunta": "Quero um setup gamer para jogos fps",
+        "Respostas": [
+            "Mouse",
+            "Teclado",
+            "Computador",
+            "Monitor"
         ]
     }
 ]

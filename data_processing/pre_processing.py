@@ -80,11 +80,11 @@ def processing_and_embed(df):
     # Ordernação das categorias em ordem alfabetica
     df['filtered_categories'] = df['filtered_categories'].apply(lambda x: sorted(x))
     # Lista para string
-    df['filtered_categories'] = df['filtered_categories'].apply(lambda x: ', '.join(x[0:3]))
+    df['filtered_categories'] = df['filtered_categories'].apply(lambda x: ', '.join(x))
     # Embedding
     df['embedding_categories'] = df['filtered_categories'].apply(lambda x: (embedding(x)))
     # String para lista
-    #df['embedding_categories'] = df['embedding_categories'].apply(lambda x: (eval(x)))
+    # df['embedding_categories'] = df['embedding_categories'].apply(lambda x: (eval(x)))
     return df
 
 def new_file(df):

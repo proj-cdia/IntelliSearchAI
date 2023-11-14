@@ -1,4 +1,5 @@
 import pandas as pd  
+import json
 import os  
 import warnings    
 import streamlit as st  
@@ -17,7 +18,7 @@ def main():
     temperature, max_lenght = float(config["temperature"]), int(config["max_lenght"])    
     searcher = Model(model, temperature, max_lenght)  
   
-    # Intancia o banco de dados  
+    # Instancia o banco de dados  
     index = vector_db.vector_db()  
   
     # Sidebar para carregar os dados  
@@ -56,7 +57,7 @@ def main():
             st.subheader("Resposta do Modelo: ")  
             st.write(models_answer)  
             embedding_anwser = embedding(models_answer)  
-            pinecone_anwser = vector_db.query_db(index, embedding_anwser).json()  
+            pinecone_anwser = vector_db.query_db(index, embedding_anwser).to_dict()
         st.subheader("Produtos recomendados: ")  
         st.write(pinecone_anwser)  
   
