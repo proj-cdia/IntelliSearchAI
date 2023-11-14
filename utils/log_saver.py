@@ -12,7 +12,7 @@ def save_log(question, answer):
     log = {'Pergunta': question, 'Respostas': answer}    
   
     try:  
-        with open('log/log.json', 'r') as file:  
+        with open('log/log.json', 'r', encoding="unicode-escape") as file:  
             logs = json.load(file)   
     except (FileNotFoundError, json.JSONDecodeError):  
         logs = []  
