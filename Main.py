@@ -7,12 +7,13 @@ from data_processing import pre_processing, vector_db
 from utils.config_loader import load_config  
 from model.Model import Model
 from utils.embedding import embedding  
+from utils.word_cloud import word_cloud
   
 warnings.filterwarnings("ignore")    
   
 def main():  
     # Carrega as configurações do modelo    
-    os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'  
+    os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'  
     config = load_config("model/config.json")    
     model = config["model"]    
     temperature, max_lenght = float(config["temperature"]), int(config["max_lenght"])    
@@ -47,19 +48,24 @@ def main():
     # Cria a interface do Streamlit    
     st.title("IntelliSearchAI")    
     st.markdown('Bem vindo ao IntelliSearchAI! Digite sua busca abaixo:')    
-    # Campo de busca e botão de pesquisar    
-    search = st.text_input("")    
-    if st.button('Pesquisar'):    
-        with st.spinner('Pesquisando...'):  
-            models_answer = searcher.run(search)   
-            models_answer = sorted(list(set([item.strip().upper() for item in models_answer.split(",") if len(item)>1])))
-            models_answer = " , ".join(models_answer)
-            st.subheader("Resposta do Modelo: ")  
-            st.write(models_answer)  
-            embedding_anwser = embedding(models_answer)  
-            pinecone_anwser = vector_db.query_db(index, embedding_anwser).to_dict()
-        st.subheader("Produtos recomendados: ")  
-        st.write(pinecone_anwser)  
-  
+
+    col1, col2 = st.columns(2)
+    with col1:
+        # Campo de busca e botão de pesquisar    
+        search = st.text_input("")
+        if st.button('Pesquisar'):    
+            with st.spinner('Pesquisando...'):  
+                models_answer = searcher.run(search)   
+                models_answer = sorted(list(set([item.strip().upper() for item in models_answer.split(",") if len(item)>1])))
+                models_answer = " , ".join(models_answer)
+                st.subheader("Resposta do Modelo: ")  
+                st.write(models_answer)  
+                embedding_anwser = embedding(models_answer)  
+                pinecone_anwser = vector_db.query_db(index, embedding_anwser).to_dict()
+            st.subheader("Produtos recomendados: ")  
+            st.write(pinecone_anwser)  
+    with col2:
+        word_cloud()
+    
 if __name__ == "__main__":  
     main()

@@ -10,7 +10,7 @@ import requests
 @retry(tries=3, delay=10)
 def embedding(texts):
     # ALTERAR DEPOIS PARA NAO SER HARD CODED
-    hf_token = "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"
+    hf_token = "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"
 
     # Embedding baseado no código do link abaixo
     # https://colab.research.google.com/github/huggingface/blog/blob/main/notebooks/80_getting_started_with_embeddings.ipynb#scrollTo=Kg0HaYGSz2GC

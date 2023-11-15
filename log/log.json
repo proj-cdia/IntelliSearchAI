@@ -8,10 +8,6 @@
         ]
     },
     {
-        "Pergunta": "quero montar um setup",
-        "Respostas": []
-    },
-    {
         "Pergunta": "quero montar um sistema de som",
         "Respostas": [
             "Subwoofer",
@@ -22,7 +18,7 @@
     {
         "Pergunta": "Quero decorar minha cozinha",
         "Respostas": [
-            "Fog�o",
+            "Fogão",
             "Geladeira",
             "Mesa",
             "Microondas"
@@ -31,68 +27,374 @@
     {
         "Pergunta": "Quero decorar minha cozinha",
         "Respostas": [
-            "Fog�o",
+            "Fogão",
             "Geladeira",
             "Mesa",
             "Microondas"
         ]
     },
     {
-        "Pergunta": "quero montar um pc",
+        "Pergunta": "quero montar um setup gamer",
         "Respostas": [
-            "Processador",
-            "Mem�ria RAM",
-            "Placa m�e"
+            "Mouse",
+            "Monitor",
+            "Teclado"
         ]
     },
     {
-        "Pergunta": "Quero um setup gamer",
+        "Pergunta": "quero uma ideia de roupa de halloween",
         "Respostas": [
+            "Vampiro",
+            "Fantasma",
+            "Bruxa"
+        ]
+    },
+    {
+        "Pergunta": "roupa para o natal",
+        "Respostas": [
+            "Camisa",
+            "Calça",
+            "Sapato"
+        ]
+    },
+    {
+        "Pergunta": "eu quero uma camisa de futebol para meu pai de natal",
+        "Respostas": [
+            "Camisa do Flamengo",
+            "Camisa do Palmeiras",
+            "Camisa do Corinthians"
+        ]
+    },
+    {
+        "Pergunta": "quero começar a praticar esportes em casa",
+        "Respostas": [
+            "Halteres",
+            "Esteira",
+            "Colchonete",
+            "Bola de Pilates"
+        ]
+    },
+    {
+        "Pergunta": "estou planejando um piquenique",
+        "Respostas": [
+            "Sanduiche",
+            "Toalha",
+            "Refrigerante",
+            "Sanduicheira",
+            "Cobertor"
+        ]
+    },
+    {
+        "Pergunta": "estou pensando em adotar um animal de estimação",
+        "Respostas": [
+            "Coelho",
+            "Cachorro",
+            "Gato"
+        ]
+    },
+    {
+        "Pergunta": "quero começar a pintar",
+        "Respostas": [
+            "Tinta",
+            "rolo",
+            "rolo de pintura",
+            "Tinta branca",
+            "pincel"
+        ]
+    },
+    {
+        "Pergunta": "vou acampar pela primeira vez",
+        "Respostas": [
+            "Saco de",
+            "Colchão",
+            "Barraca"
+        ]
+    },
+    {
+        "Pergunta": "ideias de presente de aniversário para um amigo",
+        "Respostas": [
+            "Livros",
+            "DVDs",
+            "Camisetas"
+        ]
+    },
+    {
+        "Pergunta": "estou montando um escritorio em casa",
+        "Respostas": [
+            "Mesa",
+            "Monitor",
+            "Armário",
+            "Notebook",
+            "Cadeira",
+            "Teclado"
+        ]
+    },
+    {
+        "Pergunta": "quero fazer um churrasco",
+        "Respostas": [
+            "carvão",
+            "Faca",
+            "carne",
+            "Churrasqueira",
+            "Espeto"
+        ]
+    },
+    {
+        "Pergunta": "preciso de um presente para um recém-nascido",
+        "Respostas": [
+            "pomada para assaduras",
+            "Fraldas",
+            "lenços umedecidos",
+            "Mamadeira",
+            "Chupeta",
+            "Fralda"
+        ]
+    },
+    {
+        "Pergunta": "quero fazer uma horta em casa",
+        "Respostas": [
+            "terra",
+            "Sementes",
+            "sementes de cenoura",
+            "sementes de tomate",
+            "Sementes de alface",
+            "regador"
+        ]
+    },
+    {
+        "Pergunta": "preciso de utensílios de cozinha duráveis",
+        "Respostas": [
+            "Panelas de inox",
+            "frigideira de"
+        ]
+    },
+    {
+        "Pergunta": "vou redecorar meu quarto",
+        "Respostas": [
+            "Cama",
+            "Guarda roupa",
+            "Cabeceira",
+            "Armário"
+        ]
+    },
+    {
+        "Pergunta": "decorações de quarto",
+        "Respostas": [
+            "Cama",
+            "Espelho",
+            "Mesa de cabeceira"
+        ]
+    },
+    {
+        "Pergunta": "quero aprender a tocar um instrumento",
+        "Respostas": [
+            "Bateria",
+            "Guitarra",
+            "Violão"
+        ]
+    },
+    {
+        "Pergunta": "me recomenda uma câmera para iniciantes",
+        "Respostas": [
+            "Canon EOS"
+        ]
+    },
+    {
+        "Pergunta": "presente de dia dos namorados",
+        "Respostas": [
+            "Perfume",
+            "Camisa",
+            "Sapato"
+        ]
+    },
+    {
+        "Pergunta": "jantar formal",
+        "Respostas": [
+            "Prato",
+            "Salada"
+        ]
+    },
+    {
+        "Pergunta": "quero fazer artesanato",
+        "Respostas": [
+            "agulha",
+            "Tecido",
+            "linha"
+        ]
+    },
+    {
+        "Pergunta": "quero montar um setup gamer",
+        "Respostas": [
+            "Monitor",
             "Mouse",
-            "Teclado",
+            "Teclado"
+        ]
+    },
+    {
+        "Pergunta": "quero uma roupa para a escola",
+        "Respostas": [
+            "Camisa",
+            "Calça",
+            "Sapato"
+        ]
+    },
+    {
+        "Pergunta": "quero uma roupa para um festival",
+        "Respostas": [
+            "Sapato",
+            "Camisa de banda",
+            "Calça",
+            "Óculos escuros",
+            "chapéu de palha",
+            "Camisa"
+        ]
+    },
+    {
+        "Pergunta": "roupa para a praia",
+        "Respostas": [
+            "Biquíni",
+            "Sunga",
+            "Chapéu"
+        ]
+    },
+    {
+        "Pergunta": "produtos eletronicos",
+        "Respostas": [
             "Monitor"
         ]
     },
     {
-        "Pergunta": "Quero um setup gamer",
+        "Pergunta": "preciso decorar meu jardim",
         "Respostas": [
-            "Mouse",
-            "Teclado",
+            "flores",
+            "Flores",
+            "Vasos",
+            "plantas",
+            "Piscina"
+        ]
+    },
+    {
+        "Pergunta": "preciso de brinquedos para o meu pet",
+        "Respostas": [
+            "Comida",
+            "petisco",
+            "Bola",
+            "Brinquedo interativo",
+            "ossinho"
+        ]
+    },
+    {
+        "Pergunta": "gato",
+        "Respostas": [
+            "Frango",
+            "Carne"
+        ]
+    },
+    {
+        "Pergunta": "setup gamer",
+        "Respostas": [
+            "Comput",
+            "Call of Duty",
+            "G",
             "Monitor"
         ]
     },
     {
-        "Pergunta": "Quero um setup gamer",
+        "Pergunta": "setup gamer",
         "Respostas": [
-            "Mouse",
-            "Teclado",
-            "Monitor"
+            "Comput",
+            "Monitor",
+            "G",
+            "Call of Duty"
         ]
     },
     {
-        "Pergunta": "Quero um setup gamer",
+        "Pergunta": "quero decorar meu banheiro",
         "Respostas": [
-            "Mouse",
-            "Teclado",
-            "Monitor"
+            "Toalha",
+            "Porta papel higiênico",
+            "Saboneteira"
         ]
     },
     {
-        "Pergunta": "Quero um setup gamer para jogos fps",
+        "Pergunta": "quero decorar minha cozinha",
         "Respostas": [
-            "Mouse",
+            "Geladeira",
+            "Fogão",
+            "Mesa",
+            "Microondas"
+        ]
+    },
+    {
+        "Pergunta": "roupa para o natal",
+        "Respostas": [
+            "Calça",
+            "Sapato",
+            "Camisa"
+        ]
+    },
+    {
+        "Pergunta": "vou acampar pela primeira vez",
+        "Respostas": [
+            "Colchão",
+            "Barraca",
+            "Saco de"
+        ]
+    },
+    {
+        "Pergunta": "estou montando um escritorio em casa",
+        "Respostas": [
+            "Mesa",
+            "Notebook",
+            "Armário",
             "Teclado",
+            "Monitor",
+            "Cadeira"
+        ]
+    },
+    {
+        "Pergunta": "preciso de um presente para um recém-nascido",
+        "Respostas": [
+            "Fraldas",
+            "lenços umedecidos",
+            "Mamadeiras",
+            "pomada para assaduras",
+            "Chupetas"
+        ]
+    },
+    {
+        "Pergunta": "vou redecorar o meu quarto",
+        "Respostas": [
+            "Armário",
+            "Colchão",
+            "Cabeceira",
+            "Guarda roupa",
+            "Cama"
+        ]
+    },
+    {
+        "Pergunta": "roupa para a praia",
+        "Respostas": [
+            "Sunga",
+            "Biquíni",
+            "Chapéu"
+        ]
+    },
+    {
+        "Pergunta": "Quero montar um setup gamer",
+        "Respostas": [
+            "Monitor",
             "Computador",
-            "Monitor"
+            "Mouse",
+            "Teclado"
         ]
     },
     {
-        "Pergunta": "Quero um setup gamer para jogos fps",
+        "Pergunta": "quero redecorar meu banheiro",
         "Respostas": [
-            "Mouse",
-            "Teclado",
-            "Computador",
-            "Monitor"
+            "Saboneteira",
+            "Toalha",
+            "Porta papel higiênico"
         ]
     }
 ]
