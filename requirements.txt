@@ -7,6 +7,6 @@ requests
 retry
 pinecone-client
 streamlit
-WordCloud
+wordcloud
 matplotlib
 nltk
