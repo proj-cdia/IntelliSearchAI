@@ -12,12 +12,13 @@ def save_log(question, answer):
     log = {'Pergunta': question, 'Respostas': answer}    
   
     try:  
-        with open('log/log.json', 'r', encoding="unicode-escape") as file:  
+        with open('log/log.json', 'r', encoding='utf-8') as file:  
             logs = json.load(file)   
     except (FileNotFoundError, json.JSONDecodeError):  
         logs = []  
   
     logs.append(log)  
-    with open('log/log.json', 'w') as file:  
-        json.dump(logs, file, ensure_ascii=False, indent=4)   
+    with open('log/log.json', 'w', encoding='utf-8') as file:  
+        json.dump(logs, file, indent=4, ensure_ascii=False)
+
  
