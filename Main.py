@@ -52,20 +52,42 @@ def main():
     col1, col2 = st.columns(2)
     with col1:
         # Campo de busca e botão de pesquisar    
-        search = st.text_input("")
+        search = st.text_input("")    
         if st.button('Pesquisar'):    
             with st.spinner('Pesquisando...'):  
                 models_answer = searcher.run(search)   
                 models_answer = sorted(list(set([item.strip().upper() for item in models_answer.split(",") if len(item)>1])))
                 models_answer = " , ".join(models_answer)
-                st.subheader("Resposta do Modelo: ")  
-                st.write(models_answer)  
-                embedding_anwser = embedding(models_answer)  
-                pinecone_anwser = vector_db.query_db(index, embedding_anwser).to_dict()
-            st.subheader("Produtos recomendados: ")  
-            st.write(pinecone_anwser)  
+                if len(models_answer) > 0:
+                    st.subheader("Resposta do Modelo: ")  
+                    st.write(models_answer)  
+                    embedding_anwser = embedding(models_answer)  
+                    pinecone_anwser = vector_db.query_db(index, embedding_anwser)
+
+                    # Processamento da consulta(pinecone_anwser)
+                    filtered_data = []
+                    for match in pinecone_anwser["matches"]:
+                        filtered_data.append({
+                            "id": match["id"],
+                            "score": match["score"],
+                            "brand": match["metadata"]["brand"],
+                            "link": match["metadata"]["link"],
+                            "productName": match["metadata"]["productName"]
+                        })
+
+                    st.subheader("Produtos recomendados: ")  
+
+                    for item in filtered_data:
+                        st.write("--------------------------------")
+                        st.write(f"Nome do Produto: {item['productName']}")
+                        st.write(f"ID: {item['id']}")
+                        st.write(f"Score: {item['score']}")
+                        st.write(f"Marca: {item['brand']}")
+                        st.write(f"Link: {item['link']}")
+                else:
+                    st.write("Nenhum produto encontrado! Tente novamente.")
     with col2:
         word_cloud()
-    
+
 if __name__ == "__main__":  
     main()
