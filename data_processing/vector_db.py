@@ -4,6 +4,8 @@ import pandas as pd
 def processing_bd(df):
     """Processando dados para a inserção no BD vetorial"""
     
+    df['embedding_categories'] = df['embedding_categories'].apply(lambda x: (eval(x))) ### Inserir no processamento dps
+
     id_list = [df['productId'].values[i] for i in range(len(df))]
     id_list = list(map(str, id_list))
     
@@ -36,9 +38,10 @@ def vector_db():
 def query_db(index, itens, filter=None):
     if filter:
         #Arrumar para receber os filtros
-        return index.query(queries=itens, metadata=True, filter=filter, top_k=5)
+        return index.query(queries=itens, metadata=True, filter=filter, top_k=5).to_dict()
     else:
-        return index.query(vector=itens, include_metadata=True, top_k=5)
+        return index.query(vector=itens, include_metadata=True, top_k=5).to_dict()
+
 #SSLEOFError tinha dado esse erro logo teve-se que instalar as seguintes libs                             
 #pip install ndg-httpsclient
 #pip install pyopenssl
