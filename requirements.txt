@@ -9,3 +9,4 @@ pinecone-client
 streamlit
 WordCloud
 matplotlib
+nltk

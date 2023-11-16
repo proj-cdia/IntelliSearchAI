@@ -66,7 +66,7 @@
         ]
     },
     {
-        "Pergunta": "quero comeÃ§ar a praticar esportes em casa",
+        "Pergunta": "quero comeï¿½ar a praticar esportes em casa",
         "Respostas": [
             "Halteres",
             "Esteira",
@@ -113,6 +113,7 @@
     {
         "Pergunta": "ideias de presente de aniversÃ¡rio para um amigo",
         "Respostas": [
+            "Liv",
             "Livros",
             "DVDs",
             "Camisetas"
@@ -178,7 +179,7 @@
         ]
     },
     {
-        "Pergunta": "decoraÃ§Ãµes de quarto",
+        "Pergunta": "decoraï¿½ï¿½es de quarto",
         "Respostas": [
             "Cama",
             "Espelho",
@@ -264,6 +265,10 @@
         ]
     },
     {
+        "Pergunta": "cinco tipos de produtos eletronicos",
+        "Respostas": []
+    },
+    {
         "Pergunta": "preciso decorar meu jardim",
         "Respostas": [
             "flores",
@@ -284,11 +289,19 @@
         ]
     },
     {
+        "Pergunta": "petisco para cachorro",
+        "Respostas": []
+    },
+    {
         "Pergunta": "gato",
         "Respostas": [
             "Frango",
             "Carne"
         ]
+    },
+    {
+        "Pergunta": "itens para montar um setup",
+        "Respostas": []
     },
     {
         "Pergunta": "setup gamer",
@@ -300,6 +313,13 @@
         ]
     },
     {
+        "Pergunta": "itens com tela",
+        "Respostas": [
+            "",
+            "Monitor"
+        ]
+    },
+    {
         "Pergunta": "setup gamer",
         "Respostas": [
             "Comput",
@@ -307,6 +327,10 @@
             "G",
             "Call of Duty"
         ]
+    },
+    {
+        "Pergunta": "itens para banheiro",
+        "Respostas": []
     },
     {
         "Pergunta": "quero decorar meu banheiro",
@@ -336,6 +360,7 @@
     {
         "Pergunta": "vou acampar pela primeira vez",
         "Respostas": [
+            "",
             "ColchÃ£o",
             "Barraca",
             "Saco de"
@@ -381,225 +406,35 @@
         ]
     },
     {
-        "Pergunta": "Quero montar um setup gamer",
+        "Pergunta": "quero montar um setup gamer",
         "Respostas": [
-            "Monitor",
-            "Computador",
             "Mouse",
-            "Teclado"
-        ]
-    },
-    {
-        "Pergunta": "quero redecorar meu banheiro",
-        "Respostas": [
-            "Saboneteira",
-            "Toalha",
-            "Porta papel higiÃªnico"
-        ]
-    },
-    {
-        "Pergunta": "Quero fazer um grande setup gamer",
-        "Respostas": [
-            "Monitor",
-            "Mouse",
-            "Você quer um setup g",
-            "Teclado"
-        ]
-    },
-    {
-        "Pergunta": "Quero fazer um vestido bonito",
-        "Respostas": [
-            "agulha verde",
-            "Tecido verde",
-            "linha verde",
-            "Não sei"
-        ]
-    },
-    {
-        "Pergunta": "ola quero comprar um tablet",
-        "Respostas": [
-            ""
-        ]
-    },
-    {
-        "Pergunta": "ola quero comprar um notebook",
-        "Respostas": [
-            "Notebook Dell",
-            "Notebook Acer",
-            "Não sei",
-            "Notebook Samsung"
-        ]
-    },
-    {
-        "Pergunta": "ola quero comprar um notebook",
-        "Respostas": [
-            "Notebook Dell",
-            "Notebook Acer",
-            "Não sei",
-            "Notebook Samsung"
-        ]
-    },
-    {
-        "Pergunta": "notebook",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "notebook",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero um notebook",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero um notebook",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero um notebook",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero um notebook",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero um notebook",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero um notebook e um celular",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero um notebook e um celular",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero montar um sistema de som",
-        "Respostas": [
-            "Subwoofer",
-            "Caixa de Som",
-            "amplificador",
-            "Som automotivo",
-            "Amplificador",
-            "alto falante"
-        ]
-    },
-    {
-        "Pergunta": "quero montar um sistema de som",
-        "Respostas": [
-            "Subwoofer",
-            "Caixa de Som",
-            "amplificador",
-            "Som automotivo",
-            "Amplificador",
-            "alto falante"
-        ]
-    },
-    {
-        "Pergunta": "quero montar um trem",
-        "Respostas": [
-            ""
-        ]
-    },
-    {
-        "Pergunta": "quero montar um trem",
-        "Respostas": [
-            ""
+            "Teclado",
+            "Monitor"
         ]
     },
     {
         "Pergunta": "quero montar um setup gamer",
         "Respostas": [
             "Mouse",
-            "Monitor",
-            "Teclado"
+            "Teclado",
+            "Monitor"
         ]
     },
     {
         "Pergunta": "quero montar um setup gamer",
         "Respostas": [
-            "Mouse",
-            "Monitor",
-            "Teclado"
-        ]
-    },
-    {
-        "Pergunta": "quero montar um setup gamer",
-        "Respostas": [
-            "Mouse",
-            "Monitor",
-            "Teclado"
-        ]
-    },
-    {
-        "Pergunta": "quero montar um setup gamer",
-        "Respostas": [
-            "Mouse",
-            "Monitor",
-            "Teclado"
-        ]
-    },
-    {
-        "Pergunta": "quero montar um setup gamer",
-        "Respostas": [
-            "Mouse",
-            "Monitor",
-            "Teclado"
-        ]
-    },
-    {
-        "Pergunta": "quero montar um setup gamer",
-        "Respostas": [
-            "Mouse",
-            "Monitor",
-            "Teclado"
-        ]
-    },
-    {
-        "Pergunta": "quero montar um setup",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero montar um setup",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero montar um setup",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero montar um setup",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero montar um setup",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero montar um setup",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "quero montar um setup",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "",
-        "Respostas": []
-    },
-    {
-        "Pergunta": "Quero montar um setup",
-        "Respostas": [
-            "Mouse",
             "Monitor",
             "Teclado",
-            "Computador"
+            "Mouse"
         ]
     },
     {
-        "Pergunta": "",
-        "Respostas": []
+        "Pergunta": "quero montar um setup gamer",
+        "Respostas": [
+            "Monitor",
+            "Teclado",
+            "Mouse"
+        ]
     }
 ]
