@@ -49,7 +49,7 @@ def main():
     st.markdown('Bem vindo ao IntelliSearchAI! Digite sua busca abaixo:')    
     # Campo de busca e botão de pesquisar    
     search = st.text_input("")    
-    if st.button('Pesquisar'):    
+    if st.button('Pesquisar') or search:    
         with st.spinner('Pesquisando...'):  
             models_answer = searcher.run(search)   
             models_answer = sorted(list(set([item.strip().upper() for item in models_answer.split(",") if len(item)>1])))
