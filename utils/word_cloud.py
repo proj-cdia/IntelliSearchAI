@@ -4,6 +4,7 @@ from PIL import Image
 import numpy as np
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+from matplotlib.colors import LinearSegmentedColormap
 import streamlit as st  
 import nltk
 from nltk.corpus import stopwords
@@ -31,8 +32,10 @@ def word_cloud():
 
     rgb_array = np.array(image_mask) 
 
+    cores = ['lightblue', 'royalblue', 'darkblue']
+    cmap = LinearSegmentedColormap.from_list('meu_cmap', cores)
     word_cloud = WordCloud(mask=rgb_array, background_color='white', max_font_size=500,
-                           max_words=500, colormap='gist_heat')
+                           max_words=500, colormap=cmap)
     word_cloud.generate(all_text_str.upper())
 
     fig, ax = plt.subplots(figsize=[40,20])
