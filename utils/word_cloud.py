@@ -12,7 +12,7 @@ nltk.download('stopwords')
 stopwords = set(stopwords.words('portuguese'))
 
 def word_cloud():
-    with open('log\log.json', encoding='utf-8') as file:
+    with open('../log/log.json', encoding='utf-8') as file:
         logs = json.load(file)
 
     all_text = []
@@ -25,7 +25,7 @@ def word_cloud():
     #Remove stopwords
     all_text_str = ' '.join([word for word in all_text_str.split() if word not in stopwords])
 
-    icon = Image.open("utils\cloud.png")
+    icon = Image.open("utils/cloud.png")
     image_mask = Image.new(mode='RGB', size=icon.size, color=(255,255,255))
     image_mask.paste(icon, box=icon)
 
