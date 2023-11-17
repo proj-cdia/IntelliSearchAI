@@ -6,7 +6,8 @@ import streamlit as st
 from data_processing import pre_processing, vector_db  
 from utils.config_loader import load_config  
 from model.Model import Model
-from utils.embedding import embedding  
+from utils.embedding import embedding
+from utils.word_cloud import word_cloud  
   
 warnings.filterwarnings("ignore")    
   
@@ -46,6 +47,7 @@ def main():
   
     # Cria a interface do Streamlit    
     st.title("IntelliSearchAI")    
+    word_cloud()
     st.markdown('Bem vindo ao IntelliSearchAI! Digite sua busca abaixo:')    
 
     # Campo de busca e botão de pesquisar    
