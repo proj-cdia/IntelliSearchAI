@@ -48,11 +48,12 @@ def main():
     st.title("IntelliSearchAI")    
     st.markdown('Bem vindo ao IntelliSearchAI! Digite sua busca abaixo:')    
     # Campo de busca e botão de pesquisar    
-    search = st.text_input("")    
+    search = st.text_input(label="",label_visibility="hidden",placeholder="Quero um... Preciso de...")    
     if st.button('Pesquisar') or search:    
         with st.spinner('Pesquisando...'):  
             models_answer = searcher.run(search)   
             models_answer = sorted(list(set([item.strip().upper() for item in models_answer.split(",") if len(item)>1])))
+            models_answer = [item for item in models_answer if item != "NÃO SEI"]
             models_answer = " , ".join(models_answer)
             st.subheader("Resposta do Modelo: ")  
             st.write(models_answer)  
