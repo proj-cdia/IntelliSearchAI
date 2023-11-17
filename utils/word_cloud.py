@@ -12,7 +12,7 @@ nltk.download('stopwords')
 stopwords = set(stopwords.words('portuguese'))
 
 def word_cloud():
-    with open('../log/log.json', encoding='utf-8') as file:
+    with open('log/log.json', encoding='utf-8') as file:
         logs = json.load(file)
 
     all_text = []
